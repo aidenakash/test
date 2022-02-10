@@ -1,0 +1,28 @@
+h1{
+    color:sienna;
+    border-style:groove;
+    padding: 20px;
+    font-style: italic;
+}
+p{
+    font-size: 25px;
+    color: chocolate;
+    border-style: groove;
+    padding: 50px;
+    font-style: oblique;
+}
+
+body{
+    background-color: lavender;
+}
+.cat {
+    animation: cat 8s ease-in-out;
+}
+@keyframes cat {
+   0% {
+       transform: translateX(-10%);
+   }
+   100% {
+       transform: translateX(100%);
+   }
+}

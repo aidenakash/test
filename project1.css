@@ -1,0 +1,41 @@
+h1{
+    animation: header 1.3s ease-in-out;
+    color:rgb(0, 0, 0);
+    font-family: Comic Sans MS;
+    background-color:rgba(30, 171, 236, 0.568);
+}
+@keyframes header {
+    0% {
+        transform: translateY(-100%); 
+     }
+    }
+    p{
+        color:black;
+        text-align: center;
+        font-style:italic;
+        padding:20px;
+    }
+    @media (min-width: 768px) {  
+    .cont{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding: 20px;
+    }
+}
+@media (min-width: 768px) {  
+    .cont1{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding: 20px;
+    }
+}
+@media (min-width: 768px) {  
+    .cont2{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding: 20px;
+    }
+}
+   .total{
+       display:block;
+   }
